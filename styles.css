@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@600&family=Montserrat:wght@500&family=Open+Sans:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+
+}
+/*estilos neutrales*/
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.container--flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+}
+/*estilos encabezados**/
+.main-header{
+    width: 100%;
+}
+.logo {
+font-size: 1.8em;
+color: #d69508;
+padding: 10px;
+font-family: 'Dancing Script', cursive;
+font-weight: 150;
+}
+.main-header__contactInfone__phone{
+    background: #0c0902 ;
+    color: rgb(225, 228, 66);
+    margin: 0 auto;
+    padding: 10px;
+}
+main-header__contactInfone__direc{
+    padding: 10px;
+    margin: 0;
+}
+.main-header [ class*="icon-"]:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+/***menù***/
+.main-nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.icon-menu{
+    display: block;
+    color: black;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon[class*="icon-"]{
+    color: black;
+    margin-left: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
